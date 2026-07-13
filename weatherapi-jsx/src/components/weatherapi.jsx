@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./WeatherApi.css";
 
 function WeatherApi() {
-  const API_KEY = "YOUR_API_KEY_HERE";
+  const API_KEY = "8ecd82dafa602c6ece370259f7e9f536";
 
   const [city, setCity] = useState("");
   const [wDetails, setWDetails] = useState(undefined);
