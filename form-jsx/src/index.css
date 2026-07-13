@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+form {
+    background-color: #1f1f1f;
+    color: salmon;
+    box-shadow: 0 0 20px rgba(250, 128, 114, 0.2);
+}
+
+label {
+    color: salmon;
+    font-weight: 500;
+}
+
+.form-control {
+    background-color: #2b2b2b;
+    color: salmon;
+    border: 2px solid salmon;
+}
+
+.form-control:focus {
+    background-color: #2b2b2b;
+    color: salmon;
+    border-color: salmon;
+    box-shadow: 0 0 10px salmon;
+}
+
+.form-control::placeholder {
+    color: #ffb6a7;
+}
+
+.btn-info {
+    background-color: salmon;
+    border: none;
+    color: #121212;
+}
+
+.btn-info:hover {
+    background-color: #ff8c69;
+    color: #121212;
+}
+
+.btn-danger {
+    background-color: #c0392b;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #e74c3c;
+}
+
+h1,
+h2,
+p {
+    color: salmon;
+}
+
+span {
+    color: salmon;
+    transition: 0.3s;
+}
+
+span:hover {
+    color: white;
+}
+
+.border {
+    background-color: #1f1f1f;
+}
