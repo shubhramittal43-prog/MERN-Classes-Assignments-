@@ -1,0 +1,26 @@
+{
+  "students": [
+    {
+      "name": "Shubhra Mittal",
+      "age": "21",
+      "course": "BCA",
+      "city": "Ganganagar",
+      "id": "IT0zRWRqtrc"
+    },
+    {
+      "name": "payal",
+      "age": "19",
+      "course": "BCA",
+      "city": "Meerut",
+      "id": "AmjzrejQknM"
+    },
+    {
+      "name": "Anuj",
+      "age": "22",
+      "course": "BCA",
+      "city": "Delhi",
+      "id": "FbKHCtiazxg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
